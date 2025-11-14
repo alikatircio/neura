@@ -1,0 +1,20 @@
+{
+  "username": {
+    "type": "name",
+    "value": "Username"
+  },
+  "password": {
+    "type": "name",
+    "value": "Password"
+  },
+  "loginBtn": {
+    "type": "css",
+    "value": "div[class*='signin-btn']"
+  },
+  "menuSettingBtn": {
+    "type": "css",
+    "value": "div[class*='settings']"
+  }
+
+
+}
