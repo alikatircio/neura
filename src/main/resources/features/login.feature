@@ -14,3 +14,9 @@ Feature: Login Scenarios
     When Click to element "loginBtn"
     When Wait "menuSettingBtn" to element until visible
     When Click to element "loginBtn"
+
+  Scenario: Verify UI in second approach
+    Given User navigates to "http://192.168.2.13:8080"
+    Then Verify "login.username" placeholder
+    And I click the text "login.username"
+    When User types "superadmin" into "login.username"
